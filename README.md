@@ -1,2 +1,1 @@
-# carmel-hack-club
-Official
+#carmel Hackers
