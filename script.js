@@ -1,5 +1,4 @@
 const body = document.getElementsByTagName("body")[0]
-const switchBtn = document.getElementById("switch")
 const modeSwap = document.getElementById("color-scheme-swap")
 const notion = document.getElementById("notion")
 
@@ -31,19 +30,6 @@ var thursday = getDateOfWeekday("thursday");
 thursday.setHours(17,0,0); 
 document.getElementById('meeting-time').innerHTML = "<h4 style=\"margin-block-end: 0em\">The next club meeting is at: </h4><strong><br><h2 style=\"margin-block-end: 0em; margin-block-start: 0em; font-weight: 800; font-family: 'Ubuntu', sans-serif;\">"+thursday.toLocaleString()+"</h2></strong><br/>";
 
-let isGradient = true
-switchBtn.addEventListener('click', _ => {
-    if (isGradient) {
-        isGradient = false
-        body.classList.remove('rainbow-gradient')
-        body.classList.add('rainbow')
-    } else {
-        isGradient = true
-        body.classList.remove('rainbow')
-        body.classList.add('rainbow-gradient')
-    }
-    console.log(change.classList)
-})
 
 let isDark = false
 modeSwap.addEventListener('click', _ => {

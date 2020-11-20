@@ -50,12 +50,6 @@ body {
     line-height: 1.5;
 }
 
-#nestmlogo {
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-
 #hclogo {
     position: absolute;
     top: 0;
@@ -103,20 +97,6 @@ body {
 }
 
 /* Rainbow code begins here */
-.rainbow {
-    animation: rainbow 10s infinite alternate;
-}
-
-@keyframes rainbow {
-  0% {background-color: hsl(0, 100%, 50%);}
-  14% {background-color: hsl(30,100%,50%);}
-  28% {background-color: hsl(60, 100%, 27%);}
-  42% {background-color: rgb(1, 155, 1);}
-  56% {background-color:  hsl(195, 99%, 32%);}
-  70% {background-color: hsl(280,100%,50%);}
-  84% {background-color: rgb(177, 2, 119);}
-  100% {background-color: rgb(204, 58, 0);}
-}
 /* Rainbow code ends here */
 
 /* Gradient code starts here */
