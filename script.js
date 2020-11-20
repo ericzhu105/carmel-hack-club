@@ -27,9 +27,9 @@ function getDateOfWeekday(refday){
     return new Date(currTimestamp + dayMillDiff);
 }
 
-var friday = getDateOfWeekday("friday");
-friday.setHours(14,0,0); 
-document.getElementById('meeting-time').innerHTML = "<h4 style=\"margin-block-end: 0em\">The next club meeting is at: </h4><strong><br><h2 style=\"margin-block-end: 0em; margin-block-start: 0em; font-weight: 800; font-family: 'Ubuntu', sans-serif;\">"+friday.toLocaleString()+"</h2></strong><br/>";
+var thursday = getDateOfWeekday("thursday");
+thursday.setHours(17,0,0); 
+document.getElementById('meeting-time').innerHTML = "<h4 style=\"margin-block-end: 0em\">The next club meeting is at: </h4><strong><br><h2 style=\"margin-block-end: 0em; margin-block-start: 0em; font-weight: 800; font-family: 'Ubuntu', sans-serif;\">"+thursday.toLocaleString()+"</h2></strong><br/>";
 
 let isGradient = true
 switchBtn.addEventListener('click', _ => {
