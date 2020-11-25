@@ -1,62 +1,59 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width">
-	<title>Hack Club @ Carmel High School</title>
-	<link href="style.css" rel="stylesheet" type="text/css" />
-</head>
-
-<body style="margin-top: 0" class="rainbow-gradient">
-    <button title="Reverse color scheme" id="color-scheme-swap"><svg style="color: #ec3750" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg></button>
-	<img src="https://assets.hackclub.com/flag-orpheus-left.png" id="hclogo" alt="Hack Club flag Logo" width="200" height="100" />
-
-      <h1 class="gradient-text" id="title" style="margin-top: 40px;">
-         Carmel Hack Club
-      </h1>
-      <div id="meeting-time" class="rainbow-border" style="text-align: center; padding: 6px; width: 80%; max-width: 500px; border: 6px solid white;border-radius: 5px;"></div>
-      <script></script>
-      <div id="container">
-         <p id="text" style="margin: 50px; margin-top: 2.5%; text-align: center;">
-            Welcome! You have stumbled across Carmel High School's chapter of the international non-profit organization Hack Club. Whether you've never written a single piece of code or a programming expert, this is the club for you. We meet virtually over zoom every Thursday from 6 to 7 P.M.  EST to work on different projects, ask questions, learn more about coding, and be part of the amazing Hack Club organization. At our club your project can range from making your own website, app, or game to working with Arduinos and we'll be there every step of your journey.
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Muli:wght@400;700;900&display=swap"/>
+		<link rel="stylesheet" href="/index.css">
+		<title>Carmel Hack Club</title>
+	</head>
+	<body>
+		<img id="flag" src="https://assets.hackclub.com/flag-orpheus-left.svg" alt="Flag">
+		<h1 id="title">Carmel Hack Club</h1>
+		<section>
+			<label class="section-label">Next meeting</label>
+			<div class="section-content" id="meeting-date">
+				<p id="meeting-day"></p>
+				<p id="meeting-time">at 6:00 PM</p>
+			</div>
+			<a class="section-link" href="https://hackclub.zoom.us/j/95632777659?pwd=QThSMTZ5bUZIZERwTFJUMEphakJXdz09" target="_blank">Join Zoom</a>
+		</section>
+		<section>
+			<label class="section-label">About us</label>
+			<p class="section-content" id="description">
+				Welcome! You have stumbled across Carmel High School's chapter of the international non-profit organization Hack Club. Whether you've never written a single piece of code or a programming expert, this is the club for you. We meet virtually over zoom every Thursday from 6 to 7 P.M.  EST to work on different projects, ask questions, learn more about coding, and be part of the amazing Hack Club organization. At our club your project can range from making your own website, app, or game to working with Arduinos and we'll be there every step of your journey.
 
 Through this club, we hope to create passionate programmers and set-up one of the first hackathons in Indiana.
 
 Members who join can look forward to a variety of free stuff including stickers, a free yearlong subscription to repl.it Student Hacker, GitHub Student Developer Pack, and a free Figma subscription.
-         </p>
-      </div>
-
-      
-    <button style="margin-bottom: 30px; margin-top: -1%; border: none; background-color: #4DA8DA; color: white; height: 50px; width: 200px; border-radius: 40px;" id="button" >
-        <a style="text-decoration: none;" href="https://hackclub.zoom.us/j/95632777659?pwd=QThSMTZ5bUZIZERwTFJUMEphakJXdz09" target="_blank">
-         Zoom Link 
-        </a> 
-    </button>      
-     
-    <div id="container"> 
-         <p id="support">
-            <strong> Our Partners:</strong>
-         <p>
-      </div>
-      <div style="display: inline-grid; grid-column-gap: 30px;" id="logos">
-         <a href="https://hackclub.com"  style="border-bottom: 0px; padding: 10px;">
-         <img src="https://assets.hackclub.com/icon-progress-rounded.svg" width = "20%" style="height: 40px; width: 40px;"> 
-         <!-- https://assets.hackclub.com/icon-rounded.png --> 
-         </a>
-         <a href="https://stickermule.com" style="border-bottom: 0px; padding: 10px;">
-         <img src="https://opencollective-production.s3-us-west-1.amazonaws.com/50d34300-e719-11e6-8f71-e12ba1ad8ee3.png" style="height: 40px; width: 40px">
-         </a>
-         <a href="https://github.com" style="border-bottom: 0px; padding: 10px;"><img src="https://icon-library.com/images/github-icon-png/github-icon-png-29.jpg" width = "20%" style="height: 40px; width: 40px"></a>
-         <a href="https://figma.com" style="border-bottom: 0px; padding: 10px;"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/1200px-Figma-logo.svg.png" width = "20%" style="height: 40px; width: 30px; padding-left: 5px; padding-right: 5px;"></a>
-         <a href="https://repl.it" style="border-bottom: 0px; padding: 10px;"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Repl.it_logo.svg/220px-Repl.it_logo.svg.png" width = "20%" style="height: 40px; width: 40px; filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(108deg) brightness(104%) contrast(104%);"></a>
-         <a href="https://notion.so" style="border-bottom: 0px; padding: 10px;"><img id="notion" src="https://logos-download.com/wp-content/uploads/2019/06/Notion_App_Logo.png" width = "20%" style="height: 40px; width: 40px"></a>
-      </div>
-      <br />
-      <script src="script.js"></script>
-
-      <p id="applications">
-            <strong> Join us by filling out this <a href="https://docs.google.com/forms/d/e/1FAIpQLSfUGOzDHipckiTbQQOmKzCa5ffrqS0cZeb0bQo4ISFC_pdBcQ/viewform" class="intersetform"><strong>Intereset Form!</strong></a></strong>
-      </p>
-   </body>
+			</p>
+			<a class="section-link" href="https://docs.google.com/forms/d/e/1FAIpQLSfUGOzDHipckiTbQQOmKzCa5ffrqS0cZeb0bQo4ISFC_pdBcQ/viewform">Enroll</a>
+		</section>
+		<section>
+			<label class="section-label">Partners</label>
+			<div class="section-content" id="partners">
+				<a class="partner" href="https://hackclub.com">
+					<img class="partner-image" src="https://assets.hackclub.com/icon-progress-rounded.svg" alt="Hack Club"> 
+				</a>
+				<a class="partner" href="https://stickermule.com">
+					<img class="partner-image" src="https://opencollective-production.s3-us-west-1.amazonaws.com/50d34300-e719-11e6-8f71-e12ba1ad8ee3.png" alt="stickermule">
+				</a>
+				<a class="partner" href="https://github.com">
+					<img class="partner-image" src="https://icon-library.com/images/github-icon-png/github-icon-png-29.jpg" alt="GitHub">
+				</a>
+				<a class="partner" href="https://figma.com">
+					<img class="partner-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/1200px-Figma-logo.svg.png" alt="Figma">
+				</a>
+				<a class="partner" href="https://repl.it">
+					<img class="partner-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Repl.it_logo.svg/220px-Repl.it_logo.svg.png" alt="repl.it">
+				</a>
+				<a class="partner" href="https://notion.so">
+					<img class="partner-image" src="https://logos-download.com/wp-content/uploads/2019/06/Notion_App_Logo.png" alt="Notion">
+				</a>
+			</div>
+		</div>
+		<script src="/index.js"></script>
+	</body>
 </html>
