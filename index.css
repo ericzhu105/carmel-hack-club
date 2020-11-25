@@ -12,7 +12,7 @@
 body {
 	overscroll-behavior: none;
 	padding: 30px;
-	background: black;
+	background: #272727;
 }
 
 #flag {
@@ -26,12 +26,16 @@ body {
 	margin-top: 70px;
 	text-align: center;
 	font-size: 50px;
-	background: -webkit-linear-gradient(#ec3750, #ff8c37, #f1c40f);
+	background: -webkit-linear-gradient(#56CCF2, #2F80ED);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	text-transform:uppercase;
 	font-weight:900;
 }
+
+#title:hover {
+	background-color: white;
+  }
 
 #title:hover{
 	color:rgba(0,0,0,0);
@@ -64,7 +68,7 @@ section {
 	font-size: 12px;
 	font-weight: 900;
 	opacity: 0.5;
-	background: -webkit-linear-gradient(#ec3750, #ff8c37);
+	background: -webkit-linear-gradient(#ffffff, #ffffff);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
