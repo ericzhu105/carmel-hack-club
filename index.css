@@ -27,7 +27,7 @@ body {
 	margin-top: 70px;
 	text-align: center;
 	font-size: 50px;
-	background: #4285F4;
+	background: #ff8c37;
 	transition: background-color 400ms, transform 400ms;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -71,9 +71,7 @@ section {
 	font-size: 12px;
 	font-weight: 900;
 	opacity: 0.5;
-	background: -webkit-linear-gradient(#ffffff, #ffffff);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+	color: #ff8c37;
 }
 
 .section-content {
