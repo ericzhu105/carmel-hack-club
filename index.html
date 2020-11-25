@@ -8,7 +8,39 @@
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Muli:wght@400;700;900&display=swap"/>
 		<link rel="stylesheet" href="/index.css">
 		<title>Carmel Hack Club</title>
-	</head>
+   </head>
+   <style>
+      body::-webkit-scrollbar {
+      width: 12px;
+      }
+
+      body::-webkit-scrollbar-track {
+      background: rgba(116, 112, 112, 0.548);
+      }
+      
+      
+      body::-webkit-scrollbar-thumb {
+      background-color: var(--thumbBG) ;
+      border-radius: 5px;
+      border: 3px solid var(--scrollbarBG);
+      }
+      
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+      background: rgba(34, 99, 8, 0.644); 
+      }
+      
+      /*Disabel horizontal scroll bar */
+      div.disabled {
+         overflow-x: hidden;
+         overflow-y: scroll;
+      }
+      /* Change Selection Text Color When Highlighting */ 
+      ::-moz-selection { background-color:#ff8c37;
+      color: #fff; } 
+      ::selection { background-color: #ff8c37;
+      color: #fff; }
+   </style>
 	<body>
 		<img id="flag" src="https://assets.hackclub.com/flag-orpheus-left.svg" alt="Flag">
 		<h1 id="title">Carmel Hack Club</h1>
