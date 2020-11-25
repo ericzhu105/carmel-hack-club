@@ -1,6 +1,6 @@
 const DAYS_IN_WEEK = 7
 const MILLISECONDS_IN_DAY = 1000 * 60 * 60 * 24
-const TARGET_DAY = 3
+const TARGET_DAY = 17
 
 const DATE_FORMAT_YEAR = new Intl.DateTimeFormat('en-US', { year: 'numeric' })
 const DATE_FORMAT_MONTH = new Intl.DateTimeFormat('en-US', { month: 'short' })
