@@ -27,7 +27,7 @@ body {
 	margin-top: 70px;
 	text-align: center;
 	font-size: 50px;
-	background: #ff8c37;
+	background: #1486e7;
 	transition: background-color 400ms, transform 400ms;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -71,7 +71,7 @@ section {
 	font-size: 12px;
 	font-weight: 900;
 	opacity: 0.5;
-	color: #ff8c37;
+	color: rgb(255, 255, 255);
 }
 
 .section-content {
