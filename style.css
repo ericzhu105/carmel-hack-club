@@ -25,13 +25,19 @@ body {
     font-family: 'Ubuntu', sans-serif;
     font-size: 60px;
     text-align: center;
-    color: #ffffff;
+    background: linear-gradient(to right, #505364,#7E676E,#7B696F);
+    animation: rainbow 18s ease infinite;
+    background-size: 200% 200%;
+	animation: rainbow 18s ease infinite;
+	background-clip: text;
+	-webkit-background-clip:text;
+	transition: color .2s ease-in-out;
 }
 
 #text {
     font-family: 'Open Sans', sans-serif;
     font-size: 25px;
-    max-width: 600px; 
+    max-width: 1000px; 
     margin: auto; 
     line-height: 2
 }
@@ -73,6 +79,12 @@ body {
 #applications {
     text-align: center;
     padding: 20px;
+    font-size: 22px;
+}
+.intersetform{
+  font-weight: 900px !important;
+  color: yellow !important;
+  text-decoration: none !important;
 }
 
 #color-scheme-swap {
@@ -106,16 +118,31 @@ body {
     #ff2400,
     #e81d1d,
     #d6a811,
-    #ced114, 
-    #1de840,
-    #1ddde8,
-    #2b1de8,
-    #dd00f3,
-    #dd00f3
+    #ced114
   );
   background-size: 1800% 1800%;
   animation: rainbow-gradient 18s ease infinite;
 }
+
+.gradient-text{
+	font-family:"Abril Fatface", sans-serif;
+	background: linear-gradient(to right, #505364,#7E676E,#7B696F);
+	background-size: 200% 200%;
+	animation: rainbow 18s ease infinite;
+	background-clip: text;
+	-webkit-background-clip:text;
+	transition: color .2s ease-in-out;
+	text-transform:uppercase;
+	font-weight:900;
+	}
+	.gradient-text:hover{
+	color:rgba(0,0,0,0);
+	}
+	@keyframes rainbow { 
+	0%{background-position:left}
+	50%{background-position:right}
+	100%{background-position:left}
+	}
 
 @keyframes rainbow-gradient {
   0% {
