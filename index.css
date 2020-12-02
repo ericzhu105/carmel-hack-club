@@ -107,11 +107,6 @@ section {
 	transform: translateY(-2px);
 }
 
-#date-section {
-	justify-content: center;
-	width: 35%;
-}
-
 #meeting-date {
 	padding: 20px;
 	text-align: center;
